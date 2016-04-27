@@ -23,7 +23,7 @@ public class UserController {
 	private UserServiceImpl userService;
 	
 	/**
-	 * »ñÈ¡ËùÓĞÓÃ»§ÁĞ±í
+	 * è·å–æ‰€æœ‰ç”¨æˆ·åˆ—è¡¨
 	 * @param request
 	 * @return
 	 */
@@ -37,7 +37,7 @@ public class UserController {
 	}
 	
 	/**
-	 * Ìø×ªµ½Ìí¼ÓÓÃ»§½çÃæ
+	 * è·³è½¬åˆ°æ·»åŠ ç”¨æˆ·ç•Œé¢
 	 * @param request
 	 * @return
 	 */
@@ -47,7 +47,7 @@ public class UserController {
 		return "/addUser";
 	}
 	/**
-	 * Ìí¼ÓÓÃ»§²¢ÖØ¶¨Ïò
+	 * æ·»åŠ ç”¨æˆ·å¹¶é‡å®šå‘
 	 * @param user
 	 * @param request
 	 * @return
@@ -59,7 +59,7 @@ public class UserController {
 	}
 	
 	/**
-	 *±à¼­ÓÃ»§
+	 *ç¼–è¾‘ç”¨æˆ·
 	 * @param user
 	 * @param request
 	 * @return
@@ -77,7 +77,7 @@ public class UserController {
 		}
 	}
 	/**
-	 * ¸ù¾İid²éÑ¯µ¥¸öÓÃ»§
+	 * æ ¹æ®idæŸ¥è¯¢å•ä¸ªç”¨æˆ·
 	 * @param id
 	 * @param request
 	 * @return
@@ -89,7 +89,7 @@ public class UserController {
 		return "/editUser";
 	}
 	/**
-	 * É¾³ıÓÃ»§
+	 * åˆ é™¤ç”¨æˆ·
 	 * @param id
 	 * @param request
 	 * @param response
